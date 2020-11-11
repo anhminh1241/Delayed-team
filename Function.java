@@ -28,7 +28,7 @@ public class Function {
   
   public void writeFile(String fileWriteData){
         try {
-            Files.write(Paths.get("\\Users\\Admin\\Desktop\\JAVA\\oo.dat"), fileWriteData.getBytes());
+            Files.write(Paths.get("\\Users\\Admin\\Desktop\\QBs.dat"), fileWriteData.getBytes());
         } catch (IOException e) {
         }
     
