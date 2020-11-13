@@ -341,7 +341,6 @@ public class main {
         }
         System.out.println("====================================================");
     }
-    
     public static void showAllProblem() {
         ArrayList<Problem> sorted_Problem = new ArrayList();
         sorted_Problem.addAll(arrProblem);
