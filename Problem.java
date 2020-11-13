@@ -123,8 +123,6 @@ public class Problem implements Comparable<Problem>, Serializable{
     }
     
     private  String generateID(){
-        
-        
         Random rand = new Random();
         String Num = "1234567890";
         StringBuilder text = new StringBuilder();
