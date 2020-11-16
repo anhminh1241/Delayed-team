@@ -419,7 +419,7 @@ public class main {
     
    
     
-    private static String generateID(){
+        private static String generateID(){
 
         Random rand = new Random();
         String Num = "1234567890";
@@ -439,7 +439,6 @@ public class main {
         String new_char = char_text.toString();
         return new_char + new_num;
     }
-    
     public static void showContestInfo() {
         Scanner sc = new Scanner(System.in);
         int k = 1;        
