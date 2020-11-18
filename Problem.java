@@ -18,14 +18,7 @@ public class Problem implements Comparable<Problem>, Serializable{
     
     
     public Problem(){
-        this.id = generateID() ;
-        this.date = setDate();
-        this.name = name;
-        this.short_des = short_des;
-        this.full_des = full_des;
-        this.mark_weight = mark_weight;
-        this.category = category;
-        this.author = author;
+    
         
     }
     
